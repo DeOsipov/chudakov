@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UCTMO</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<header>
+		<h2><a href="#"><div></div>ИСТМО</a></h2>
+		<nav>
+			<li><a href="#anchor1">Наши работы</a></li>
+			<li><a href="#anchor2">Услуги</a></li>
+			<li><a href="#anchor3">Отзывы</a></li>
+			<li><a href="#contact">Контакты</a></li>
+		</nav>
+	</header>
+
+
+	<section class="hero">
+		<div class="background-image"></div>
+		<h1>Инжиниринг Сервис Технологии МОнтаж</h1>
+		<h3>Комплексные решения</h3>
+		<a href="#anchor4" class="btn">Узнать расценки</a>
+	</section>
+
+
+	<section class="our-work" id="anchor1">
+		<h3 class="title">Наши работы</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<hr>
+
+		<ul class="grid">
+			<li class="small" style="background-image: url(img/coast.jpg);"></li>
+			<li class="large" style="background-image: url(img/island.jpg);"></li>
+			<li class="large" style="background-image: url(img/balloon.jpg);"></li>
+			<li class="small" style="background-image: url(img/mountain.jpg);"></li>
+		</div>
+	</section>
+	
+
+	<section class="features" id="anchor2">
+		<h3 class="title">Features and services</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<hr>
+
+		<ul class="grid">
+			<li>
+				<i class="fa fa-camera-retro"></i>
+				<h4>Photography</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
+			</li>
+
+			<li>
+				<i class="fa fa-newspaper-o"></i>
+				<h4>Проектирование металлических, железобетонных, грунтовых и деревянных сооружений</h4>
+				<p>В нашей команде есть инженеры-строители с большим опытом проектирования промышленных и административных зданий и сооружений, гидротехнических сооружений и даже аэропортов.</p>
+			</li>
+			<li>
+				<i class="fa fa-cubes"></i>
+				<h4>Web Development</h4>
+				<p>Да-да-да... Вы не ошиблись, мы также занимаемсся разработкой сайтов. В нашей команде два программиста с высшим образованием, один из которых, к тому же, кандидат наук!</p>
+			</li>
+		</div>
+	</section>
+
+
+	<section class="reviews" id="anchor3">
+		<h3 class="title">Отзывы:</h3>
+		<hr>
+
+		<p class="quote">Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+		<p class="author">— Patrick Farrell</p>
+
+		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<p class="author">— George Smith</p>
+
+		<p class="quote">Donec commodo dolor augue, vitae faucibus tortor tincidunt in. Aliquam vitae leo quis mi pulvinar ornare. Integer eu iaculis metus.</p>
+		<p class="author">— Kevin Blake</p>		
+	</section>
+
+
+	<section id="contact">
+		<h3 class="title">Контакты</h3>
+		<hr>
+		<div id="contactBox">
+			<div>
+				<h4 class="title">Телефон</h4>
+				<p>+7 (931) 592-61-55</p>
+			</div>
+
+			<div>
+				<h4 class="title">E-mail</h4>
+				<p>chudakov1969@yandex.ru</p>
+			</div>
+		</container>
+	</section>
+
+	<footer>
+		<div>Санкт-Петербург <span id="year"></span></div>
+	</footer>
+
+<!------------ script ---------------->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" href="js/script.js"></script>
+
+	<script type="text/javascript">
+		const now = new Date();
+		var year = document.getElementById('year');
+		year.innerHTML = now.getFullYear();
+	</script>
+</body>
+</html>
